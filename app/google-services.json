@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "999897019545",
+    "project_id": "studiomassage-8416e",
+    "storage_bucket": "studiomassage-8416e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999897019545:android:237acc5e9f9f70729d3408",
+        "android_client_info": {
+          "package_name": "com.example.studiomassage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkYkqniKmMcujGmXdH0-5vUhJV1ux6tOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
