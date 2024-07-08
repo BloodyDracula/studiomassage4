@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity"
+    android:background="@drawable/back"
+    >
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="9dp"
+        android:src="@drawable/logo"
+        />
+
+    <EditText
+        android:id="@+id/login_phone_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="400dp"
+        android:inputType="phone"
+        android:hint="Номер телефона"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/login_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="320dp"
+        android:hint="Пароль"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        />
+
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/login_checkbox"
+        style="@style/Material.Drawable.CheckBox"
+        android:layout_width="164dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="245dp"
+        android:layout_marginBottom="261dp"
+        android:gravity="center_vertical"
+        android:text="Запомнить меня"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/forget_password_link"
+        android:layout_width="156dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="257dp"
+        android:gravity="center_vertical"
+        android:text="Забыли пароль?"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="199dp"
+        android:background="@color/material_on_background_disabled"
+        android:text="Войти в аккаунт"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/admin_panel_link"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="142dp"
+        android:gravity="center_vertical"
+        android:text="Для Админа"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/not_admin_panel_link"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="143dp"
+        android:gravity="center_vertical"
+        android:text="Для Клиента"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

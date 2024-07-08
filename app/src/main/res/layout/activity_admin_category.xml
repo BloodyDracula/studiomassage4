@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Admin.AdminCategoryActivity">
+
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="663dp"
+        android:gravity="center"
+        android:text="Выберите услугу" />
+
+    <ImageView
+        android:id="@+id/aromaterap"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="511dp"
+        android:src="@drawable/aromaterapia" />
+
+    <ImageView
+        android:id="@+id/bank"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="510dp"
+        android:src="@drawable/bank" />
+
+    <ImageView
+        android:id="@+id/face"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="293dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="511dp"
+        android:src="@drawable/face" />
+
+    <ImageView
+        android:id="@+id/footmas"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="388dp"
+        android:src="@drawable/footmas" />
+
+    <ImageView
+        android:id="@+id/maslo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="389dp"
+        android:src="@drawable/maslo" />
+
+    <ImageView
+        android:id="@+id/spina"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="389dp"
+        android:src="@drawable/spina" />
+
+    <ImageView
+        android:id="@+id/rocks"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="377dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="284dp"
+        android:src="@drawable/rocks" />
+
+    <ImageView
+        android:id="@+id/handmas"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="285dp"
+        android:src="@drawable/handmas" />
+
+    <ImageView
+        android:id="@+id/vibromas"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="377dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="284dp"
+        android:src="@drawable/vibromas" />
+
+</RelativeLayout>
